@@ -1,11 +1,25 @@
 import java.util.Random;
 
+//ARGUMENT GUIDE
+// can be empty - runs defaults
+// can be in the form args = {size of array to sort}
+//eg. args = {"10000"}
+// can be in the form args = {starting size of array to sort, maximum size of array to start}
+//eg. args = {"10000", "20000"}
+// can be in the form args = {starting size of array to sort, maximum size of array to start, yes/no to include dumb sort}
+//eg. args = {"100", "1100", "yes"}
+
 import static java.lang.CharSequence.compare;
 
 public class InsertionVSSelection {
     public static void main(String[] args) {
         int n=1000, max=2000;
-        if(args.length==3)
+        if(args.length==1)
+        {
+            n= Integer.parseInt(args[0]);
+            max = n;
+        }
+        if(args.length>2)
         {
             n= Integer.parseInt(args[0]);
             max = Integer.parseInt(args[1]);

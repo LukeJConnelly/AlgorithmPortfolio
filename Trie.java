@@ -1,3 +1,7 @@
+//ARGUMENT GUIDE:
+//can be any number of strings of any length, provided they contain only the characters a-z in lowercase
+// eg. args = {"banana", "apple", "orange"}
+
 public class Trie{
     // Alphabet size (# of symbols) we pick 26 for English alphabet
     static final int ALPHABET_SIZE = 26;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//ARGUMENT GUIDE: should take none
 public class Main {
     public static void main(String[] args){
         System.out.println("Hello and welcome to my Algorithms Lab repo.\n" +

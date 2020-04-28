@@ -1,3 +1,7 @@
+//ARGUMENT GUIDE:
+//can be any number of strings of any length
+// eg. args = {"a@'a)(  ---===23da ", "apple", "8245215378126"}
+
 public class RunLengthEncoding {
     public static String RLEString(String str)
     {

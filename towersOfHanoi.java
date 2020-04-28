@@ -1,3 +1,7 @@
+//ARGUMENT GUIDE:
+//takes a single integer as the sole entry in a String array. This will be the number of disks
+//eg. args = {"4"}
+
 public class towersOfHanoi {
 	public static void main(String[] args){
 		if(args.length==1)

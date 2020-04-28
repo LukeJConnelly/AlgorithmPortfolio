@@ -1,3 +1,7 @@
+//ARGUMENT GUIDE
+//should take two integers only in the args array
+//eg. args = {"100", "100"}
+
 public class RusPesAlg {
 	public static void main(String args[])
 	{

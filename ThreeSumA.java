@@ -8,6 +8,11 @@
 import java.util.Arrays;
 import java.lang.*;
 
+//ARGUMENT GUIDE
+//should take the name (including extension) of any file containing only a list of integers
+//the file should be in the same directory as this file
+//eg. args = {"8Kints.txt"}
+
 public class ThreeSumA {
 
     // Do not instantiate.

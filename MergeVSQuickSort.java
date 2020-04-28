@@ -1,5 +1,12 @@
 import java.util.Random;
 
+//ARGUMENT GUIDE
+// can be empty - runs defaults
+// can be in the form args = {size of array to sort}
+//eg. args = {"10000"}
+// can be in the form args = {starting size of array to sort, maximum size of array to start}
+//eg. args = {"10000", "20000"}
+
 public class MergeVSQuickSort {
     public static void main(String[] args) {
         int n=1000, max=2000;

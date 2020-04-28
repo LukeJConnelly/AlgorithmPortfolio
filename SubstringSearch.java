@@ -1,3 +1,8 @@
+//ARGUMENT GUIDE
+//takes two strings of any length as an array
+//the 0th index is the text it will search, the 1st is the pattern it will search for
+//eg. args={"THIS IS WHAT I SHALL SEARCH", "SEA"}
+
 public class SubstringSearch {
     public static void main(String[] args){
         String txt = "HELLO THIS IS A SENTENCE";
