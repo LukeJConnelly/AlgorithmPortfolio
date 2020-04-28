@@ -6,8 +6,14 @@ The Main.java file in this repo serves to give an overview of my work over the m
 
 To run Main, simply pull the project, ensuring all .java's and .txt's are in the same directory.
 
-From here, you can use either command line or a JDK to compile and run my the files. Main should be run without
-arguments, as it will prompt you for arguments as it calls other classes.
+From here, you can use command line to copile and run the files. Compilation is done as follows in a java friendly environment:
+- Navigate to the directory containing the files using cd foldername
+- Compile each file by typing javac filename.java into the command line
+- Now run the file by typing java filename followed by any wanted arguments. Arguments are not neccessary for any of the practicals files, but can be given for all but Main.java
+
+Alternatively a JDK can be used to build and run the files. 
+
+Main should be run without arguments, as it will prompt you for arguments as it calls other classes.
 
 The other files can take arguments however they also all have defaults included in the event they are run without 
 arguments or the given arguments are not supplied correctly.
@@ -28,4 +34,5 @@ I hope you find these files to be easy reading, but if you have any questions, q
 feel free to contact me at luke.connelly@ucdconnect.ie
 
 Thanks very much,
+
 Luke
