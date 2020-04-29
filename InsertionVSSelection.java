@@ -50,7 +50,7 @@ public class InsertionVSSelection {
             System.out.println("Selection Sort Time: " + sTimeTaken);
             if(args.length==3)
             {
-                if(compare(args[2],"yes")==0)
+                if(args[2].compareTo("yes")==0)
                 {
                     System.out.println("Allow a moment please...");
                     long dstartTime = System.nanoTime();

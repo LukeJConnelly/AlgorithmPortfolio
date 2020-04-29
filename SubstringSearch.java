@@ -41,7 +41,7 @@ public class SubstringSearch {
         int n = txt.length();
         int m = pat.length();
         for (int pos = 0; pos < n - m + 1; pos++) {
-            if (CharSequence.compare(txt.substring(pos, pos+m), pat)==0)
+            if (pat.compareTo(txt.substring(pos, pos+m))==0)
             {
                 return pos;
             }
