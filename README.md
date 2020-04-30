@@ -38,15 +38,7 @@ javac RusPesAlg.java
 
 - Now run the file by typing java filename followed by any wanted arguments. Arguments are not neccessary for any of the practicals files, but can be given for all but Main.java
 
-```
-java RusPesAlg.java 25 20
-```
-
-or
-
-```
-java Main.java
-```
+```java RusPesAlg 25 20``` or ```java Main```
 
 Alternatively a JDK can be used to build and run the files.
 
