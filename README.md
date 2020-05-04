@@ -51,6 +51,12 @@ arguments or the given arguments are not supplied correctly.
 
 The format for arguments is included as a comment at the top of each file.
 
+## Huffman Compression Assignment
+
+The Assignment for this module can be found in the folder "Compression Assignment". The compression code is contained in the Huffman.java file, while all provided files, resulting compressed files and resulting decompressed files are contained in the data folder within this folder.
+
+Huffman.java expects three arguments: compression/decompression, the file to be (de)compressed and the destination for the result. This is explained further within the usage() method in the file. It can be compiled and run in the same way as specified above for the practical files.
+
 ## Final Words
 
 I hope you find these files to be easy reading, but if you have any questions, queries or concerns please feel free to contact me at luke.connelly@ucdconnect.ie
